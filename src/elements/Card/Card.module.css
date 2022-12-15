@@ -4,6 +4,7 @@
     align-items: center;
     background: #F6F5FA;
     width: 100%;
+    bottom: -55px;
     max-width: 280px;
     height: 100%;
     max-height: 400px;
@@ -13,7 +14,7 @@
 }
 @media only screen and (min-width:600px) {
     .Card {
-        max-width: 610px;
-        max-height: 446px;
+        max-width: 510px;
+        max-height: 346px;
     }   
 }
