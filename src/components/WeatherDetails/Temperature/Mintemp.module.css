@@ -1,0 +1,10 @@
+.MintempWrapper {
+    color: #333333;
+    position: relative;
+    left: 20px;
+    font-size: 2rem;
+    margin: .1rem 0;
+}
+.TemperatureWrapper .TemperatureSymbol {
+    font-size: 2rem;
+}

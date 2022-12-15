@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'NTR', 'Arial', sans-serif;
+}
+
+.s-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(106.23deg, #a4b7b1, #095f62 100%);
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 8px;
+  color: var(--textColor);
+  transition: all 0.5s ease;
+}
+.s-icon:hover {
+  cursor: pointer;
+  background: linear-gradient(106.23deg, #226fae, #226fae 100%);
+  transform: scale(1.05);
+}
+
+.s-icon {
+  padding: 8px;
+}
+
+#myButton {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+/* CSS */
+.button-7 {
+  padding: 0;
+  color: #a0a0a0;
+  font-size: 1rem;
+  letter-spacing: +.5px;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.ButtonWrapper button2 {
+  padding: 0;
+  color: #a0a0a0;
+  font-size: 21rem;
+  letter-spacing: +.5px;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+}
+.ButtonWrapper button:hover {
+  cursor: pointer;
+}
+.ButtonWrapper button:active,
+.ButtonWrapper button:focus {
+  outline: none;
+}
+.FormButtonWrapper {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+}
+

@@ -1,0 +1,8 @@
+.WindspeedWrapper {
+    color: #333333;
+    position: relative;
+    left: 15px;
+    font-size: 1.875rem;
+    letter-spacing: +.1px;
+    margin: .5rem 0;
+}
