@@ -5,7 +5,8 @@ import classes from './Pressure.module.css';
 const pressure = (props) => {
     return (
         <div className={classes.PressureWrapper}>
-            {props.type}
+            <span STYLE="font-size:15.0pt" >Pressure: </span>{props.type}
+            <span STYLE="font-size:15.0pt"> <strong>hPa</strong></span>
         </div>
     );
 }

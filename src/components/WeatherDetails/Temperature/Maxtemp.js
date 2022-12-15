@@ -5,7 +5,7 @@ import classes from './Maxtemp.module.css';
 const maxtemp = (props) => {
     return (
         <div className={classes.MaxtempWrapper}>
-            {Math.round(props.degrees)}<span className={classes.TemperatureSymbol}>°</span>
+            <span STYLE="font-size:15.0pt" >Max. Temp: </span>{props.type}{Math.round(props.degrees)}<span className={classes.TemperatureSymbol}>°</span>
         </div>
     );
 }

@@ -5,7 +5,8 @@ import classes from './Humidity.module.css';
 const humidity = (props) => {
     return (
         <div className={classes.DescriptionWrapper}>
-            {props.type}
+            <span STYLE="font-size:15.0pt" >Humidity:</span> {props.type}
+            <span STYLE="font-size:15.0pt"> <strong>%</strong></span>
         </div>
     );
 }
