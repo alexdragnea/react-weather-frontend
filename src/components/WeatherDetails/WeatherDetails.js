@@ -17,6 +17,7 @@ import Date from './Date/Date';
 
 const weatherDetails = (props) => {
     return (
+        <div>
         <div className={classes.WeatherDetailsWrapper}>
             <div className={classes.WeatherIconWrapper}>
                 <Icon type={props.data.description} />
@@ -34,6 +35,7 @@ const weatherDetails = (props) => {
                 <Temperature degrees={props.data.temperature} />
             </div>
         </div >
+        </div>
     );
 }
 
