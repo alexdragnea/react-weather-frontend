@@ -34,24 +34,35 @@ body {
 }
 
 
-
 /* CSS */
 .button-7 {
   padding: 0;
   color: #a0a0a0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: +.5px;
   text-transform: uppercase;
   border: none;
   background: none;
   position: relative;
-  left: 50%;
+  left: 49%;
   transform: translateX(-50%);
   border: 1px solid transparent;
   border-radius: 3px;
   box-sizing: border-box;
   color: #a0a0a0;
   cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+hr.new6 {
+  border: 3px solid darkgrey;
+  border-radius: 5px;
+  width: 650px;
 }
 
 .ButtonWrapper button2 {
