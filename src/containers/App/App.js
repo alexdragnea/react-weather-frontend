@@ -36,6 +36,8 @@ class App extends Component {
     window.navigator.geolocation.getCurrentPosition(
         position => this.setState({latitude: position.coords.latitude, longitude: position.coords.longitude}),
     );
+
+    this.getWeatherFromStation();
   };
 
   setWeatherBasedOnCoordinates = async (location) => {
