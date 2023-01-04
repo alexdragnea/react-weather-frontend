@@ -46,7 +46,7 @@ class App extends Component {
     // Fetch weather information and update state
 
 
-    const API_URL = 'http://localhost:8181/api/coordinates?';
+    const API_URL = 'http://localhost:5000/api/coordinates?';
     const URL = API_URL + `latitude=${this.state.latitude}&longitude=${this.state.longitude}`;
     this.setState({
       weatherDetails: {},
@@ -112,7 +112,7 @@ class App extends Component {
   // Fetch weather information and update state
   setWeatherBasedOnCity = () => {
     const city = this.state.searchBarInput;
-    const API_URL = 'http://localhost:8181/api';
+    const API_URL = 'http://localhost:5000/api';
     const URL = API_URL + `?city=${city}`;
     this.setState({
       weatherDetails: {},
@@ -156,7 +156,7 @@ class App extends Component {
 
   // Fetch weather information and update state
   getWeatherFromStation = () => {
-    const URL = 'http://localhost:8181/thingspeak/data';
+    const URL = 'http://localhost:5000/thingspeak/data';
     this.setState({
       weatherStationDetails: {},
     }, () => {
