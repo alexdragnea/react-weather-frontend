@@ -2,7 +2,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'NTR', 'Arial', sans-serif;
+  font-family: 'NTR', 'Open Sans', sans-serif;
+  /** background image */
+  background-image: url("https://media.giphy.com/media/UqMfMcU7TrNdwZEdLP/giphy.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: initial;
 }
 
 .s-icon {
