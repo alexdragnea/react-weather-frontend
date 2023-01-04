@@ -6,8 +6,6 @@
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-Q
-!src/components/Preview/Preview.js,7\a\7a124507eccabd63df4a19c0a98932fdeb5e8f17
 d
 4src/components/WeatherDetails/Feelslike/Feelslike.js,c\d\cdd1353ed828d1a1eb16bf6cb8dbcdab0327b661
 h
