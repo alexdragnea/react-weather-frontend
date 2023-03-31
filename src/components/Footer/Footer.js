@@ -11,10 +11,7 @@ const footer = (props) => {
                         <h4 className="del-heading">
                             <div className="del-logo">
 
-                                <span className="highlight">© 2022. All rights reserved.</span>
-
                             </div>
-
                         </h4>
                     </div>
                 </div>
