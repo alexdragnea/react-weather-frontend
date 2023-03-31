@@ -1,14 +1,14 @@
 import React from 'react';
-
 import classes from './Preview.module.css';
 
-const preview = (props) => {
-    return(
+const Preview = () => {
+    return (
         <img
-            src={require('../../assets/images/Preview.svg')}
+            src={require('../../assets/images/Preview.svg').default}
             alt="Weather App Icon"
-            className={classes.Preview} />
+            className={classes.Preview}
+        />
     );
-}
+};
 
-export default preview;
+export default Preview;
